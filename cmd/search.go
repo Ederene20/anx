@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/Ederene20/anx/api"
 
@@ -18,7 +19,7 @@ var searchCmd = &cobra.Command{
 	Long:  `This command allow to have a chat with ChatGPT`,
 	Run: func(cmd *cobra.Command, args []string) {
 
-		response := api.MakeRequestToChatGPT()[0]
+		response := api.MakeRequestToChatGPT(strings.Join(args, " "))
 
 		fmt.Println(response)
 	},

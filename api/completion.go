@@ -40,7 +40,7 @@ type completionResponse struct {
 	Usage   completionUsage    `json:"usage"`
 }
 
-func MakeRequestToChatGPT() []completionChoice {
+func MakeRequestToChatGPT(prompt string) []completionChoice {
 
 	godotenv.Load()
 
@@ -49,7 +49,7 @@ func MakeRequestToChatGPT() []completionChoice {
 
 	data := completionRequest{
 		Model:       "text-davinci-003",
-		Prompt:      "Who is Mozart?",
+		Prompt:      prompt,
 		MaxTokens:   2048,
 		Temperature: 0.5,
 	}
