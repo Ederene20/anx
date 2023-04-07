@@ -44,7 +44,8 @@ func MakeRequestToChatGPT(prompt string) []completionChoice {
 
 	godotenv.Load()
 
-	authToken := os.Getenv("OPENAPI_API_KEY")
+	authToken := os.Getenv("ANX_OPENAI_API_KEY")
+
 	url := "https://api.openai.com/v1/completions"
 
 	data := completionRequest{
@@ -55,6 +56,7 @@ func MakeRequestToChatGPT(prompt string) []completionChoice {
 	}
 
 	requestBody, err := json.Marshal(data)
+
 	if err != nil {
 		return nil
 	}
@@ -69,10 +71,10 @@ func MakeRequestToChatGPT(prompt string) []completionChoice {
 
 	client := http.Client{}
 	resp, err := client.Do(req)
+
 	if err != nil {
 		fmt.Println("Error")
 	}
-
 	defer resp.Body.Close()
 
 	var responseData completionResponse
