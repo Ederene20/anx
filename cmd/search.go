@@ -5,7 +5,6 @@ import (
 	"strings"
 
 	"github.com/Ederene20/anx/api"
-
 	"github.com/spf13/cobra"
 )
 
@@ -15,7 +14,7 @@ func init() {
 
 var searchCmd = &cobra.Command{
 	Use:   "search",
-	Short: "Send a request to ChaptGPT",
+	Short: "Ask something to ChaptGPT",
 	Long:  `This command allow to have a chat with ChatGPT`,
 	Run: func(cmd *cobra.Command, args []string) {
 
