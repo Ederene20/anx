@@ -1,5 +1,7 @@
 #!/bin/bash
 
-if ! grep -qxF "export ANX_OPENAI_API_KEY=$1" ~/.bashrc; then
-    echo "export ANX_OPENAI_API_KEY=$1" >> ~/.bashrc
+if grep -qF "export ANX_OPENAI_API_KEY" ~/.bashrc; then
+    sed -i '/^export ANX_OPENAI_API_KEY/d' ~/.bashrc
 fi
+
+echo "export ANX_OPENAI_API_KEY=$1" >> ~/.bashrc
