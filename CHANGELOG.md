@@ -7,13 +7,6 @@
 ### Ref
 - update changelog
 
-
-<a name="v0.1.0-beta"></a>
-## [v0.1.0-beta] - 2023-04-08
-### Feat
-- keep a changelog
-
-
 <a name="0.1.0"></a>
 ## 0.1.0 - 2023-04-08
 ### Feat
