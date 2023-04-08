@@ -40,8 +40,3 @@
 - little refactoring
 - change API Key name
 - update Readme
-
-
-[Unreleased]: https://github.com/Ederene20/anx/compare/0.2.0...HEAD
-[0.2.0]: https://github.com/Ederene20/anx/compare/v0.1.0-beta...0.2.0
-[v0.1.0-beta]: https://github.com/Ederene20/anx/compare/0.1.0...v0.1.0-beta
