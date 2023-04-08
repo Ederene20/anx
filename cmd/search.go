@@ -20,6 +20,8 @@ var searchCmd = &cobra.Command{
 
 		response := api.MakeRequestToChatGPT(strings.Join(args, " "))
 
-		fmt.Println(response)
+		for _, choice := range response {
+			fmt.Println(choice.Text)
+		}
 	},
 }
