@@ -12,7 +12,7 @@ var (
 	rootCmd = &cobra.Command{
 		Use:   "anx",
 		Short: "Find a solution to your bugs faster without opening your browser - Powered by ChatGPT",
-		Long: `Anx is a simple cli tool that allow you to interact with ChatGPT from your terminal and solve
+		Long: `Anx boost your productivity by allowing you to interact with ChatGPT from your terminal and solve
 				your bugs faster.`,
 	}
 )

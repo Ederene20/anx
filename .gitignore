@@ -17,4 +17,5 @@
 # Environments
 .env
 
+# anx binary executable
 anx
