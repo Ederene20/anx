@@ -8,7 +8,7 @@
 - update changelog
 
 <a name="0.1.0"></a>
-## 0.1.0 - 2023-04-08
+## [0.1.0] - 2023-04-08
 ### Feat
 - iterate through the api response slice
 - avoid git tracking the binary executable
