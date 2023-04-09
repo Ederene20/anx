@@ -1,8 +1,14 @@
+<a name="0.2.3"></a>
+## [0.2.3] - 2023-04-09
+### Fix
+- fix add Api Key shell script
+
+
 <a name="0.2.2"></a>
 ## [0.2.2] - 2023-04-09
-
 ### Fix
-- fix typo in the installation guide
+- fix typo
+
 
 
 <a name="0.2.1"></a>
@@ -10,13 +16,6 @@
 ### Feat
 - add installation guide
 - update install.sh
-- update changelog
-- bump version
-- update changelog
-
-### Ref
-- update changelog
-- refactored changelog
 
 
 <a name="0.2.0"></a>
@@ -30,12 +29,6 @@
 ## [v0.1.0] - 2023-04-08
 ### Ref
 - update changelog
-
-
-<a name="v0.1.0-beta"></a>
-## [v0.1.0-beta] - 2023-04-08
-### Feat
-- keep a changelog
 
 
 <a name="0.1.0"></a>
@@ -64,11 +57,3 @@
 - little refactoring
 - change API Key name
 - update Readme
-
-
-[Unreleased]: https://github.com/Ederene20/anx/compare/0.2.2...HEAD
-[0.2.2]: https://github.com/Ederene20/anx/compare/0.2.1...0.2.2
-[0.2.1]: https://github.com/Ederene20/anx/compare/0.2.0...0.2.1
-[0.2.0]: https://github.com/Ederene20/anx/compare/v0.1.0...0.2.0
-[v0.1.0]: https://github.com/Ederene20/anx/compare/v0.1.0-beta...v0.1.0
-[v0.1.0-beta]: https://github.com/Ederene20/anx/compare/0.1.0...v0.1.0-beta
