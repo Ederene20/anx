@@ -1,3 +1,14 @@
+<a name="0.2.4"></a>
+## [0.2.4] - 2023-04-09
+### Fix
+- typo
+- fix set-api-key bug
+
+### Ref
+- update README
+- update changelog
+
+
 <a name="0.2.3"></a>
 ## [0.2.3] - 2023-04-09
 ### Fix
@@ -8,7 +19,6 @@
 ## [0.2.2] - 2023-04-09
 ### Fix
 - fix typo
-
 
 
 <a name="0.2.1"></a>
@@ -23,12 +33,6 @@
 ### Feat
 - add anx installation shell script
 - user manually set api key if shell not bash
-
-
-<a name="v0.1.0"></a>
-## [v0.1.0] - 2023-04-08
-### Ref
-- update changelog
 
 
 <a name="0.1.0"></a>
