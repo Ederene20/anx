@@ -35,3 +35,7 @@ anx set-api-key sk-...kgfw
 ```bash
 anx search Explain quantum computing in simple terms
 ```
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. If you have any questions or feedback, please don't hesitate to get in touch with me. I look forward to collaborating with you!
