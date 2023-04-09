@@ -24,7 +24,7 @@ of the `anx` Github repository.
 
 ## Getting Started
 
-1. Set your valid OpenAI API Key
+1. Set a valid [OpenAI API Key](https://platform.openai.com/account/api-keys)
 
 ```bash
 anx set-api-key sk-...kgfw
