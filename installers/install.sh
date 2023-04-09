@@ -4,7 +4,7 @@
 
 set -e
 
-version=0.2.1
+version=0.2.2
 
 anx_uri="https://github.com/Ederene20/anx/releases/download/v$version/anx_$version.tar.gz"
 
