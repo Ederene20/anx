@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+	"os"
 	"strings"
 
 	"os/exec"
@@ -18,7 +19,8 @@ var setApiKeyCmd = &cobra.Command{
 	Short: "Set OpenAI API KEY",
 	Long:  `This command allow to set your OpenAI API KEY to be able to use Anx.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		output, err := exec.Command("/bin/bash", "cmd/set-api-key.sh", strings.Join(args, " ")).Output()
+		set_api_key_script_location := os.Getenv("ANX_INSTALL") + "/bin/set-api-key.sh"
+		output, err := exec.Command("/bin/bash", set_api_key_script_location, strings.Join(args, " ")).Output()
 
 		if err != nil {
 			fmt.Printf("error %s", err)
