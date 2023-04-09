@@ -1,8 +1,22 @@
+<a name="0.2.2"></a>
+## [0.2.2] - 2023-04-09
+
+### Fix
+- fix typo in the installation guide
+
+
 <a name="0.2.1"></a>
 ## [0.2.1] - 2023-04-09
 ### Feat
 - add installation guide
 - update install.sh
+- update changelog
+- bump version
+- update changelog
+
+### Ref
+- update changelog
+- refactored changelog
 
 
 <a name="0.2.0"></a>
@@ -52,7 +66,8 @@
 - update Readme
 
 
-[Unreleased]: https://github.com/Ederene20/anx/compare/0.2.1...HEAD
+[Unreleased]: https://github.com/Ederene20/anx/compare/0.2.2...HEAD
+[0.2.2]: https://github.com/Ederene20/anx/compare/0.2.1...0.2.2
 [0.2.1]: https://github.com/Ederene20/anx/compare/0.2.0...0.2.1
 [0.2.0]: https://github.com/Ederene20/anx/compare/v0.1.0...0.2.0
 [v0.1.0]: https://github.com/Ederene20/anx/compare/v0.1.0-beta...v0.1.0
