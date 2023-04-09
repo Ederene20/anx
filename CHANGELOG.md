@@ -1,14 +1,31 @@
+<a name="0.2.1"></a>
+## [0.2.1] - 2023-04-09
+### Feat
+- add installation guide
+- update install.sh
+
+
 <a name="0.2.0"></a>
 ## [0.2.0] - 2023-04-08
 ### Feat
 - add anx installation shell script
-- user will manually set the api key if shell not bash
+- user manually set api key if shell not bash
 
+
+<a name="v0.1.0"></a>
+## [v0.1.0] - 2023-04-08
 ### Ref
 - update changelog
 
+
+<a name="v0.1.0-beta"></a>
+## [v0.1.0-beta] - 2023-04-08
+### Feat
+- keep a changelog
+
+
 <a name="0.1.0"></a>
-## [0.1.0] - 2023-04-08
+## 0.1.0 - 2023-04-08
 ### Feat
 - iterate through the api response slice
 - avoid git tracking the binary executable
@@ -33,3 +50,10 @@
 - little refactoring
 - change API Key name
 - update Readme
+
+
+[Unreleased]: https://github.com/Ederene20/anx/compare/0.2.1...HEAD
+[0.2.1]: https://github.com/Ederene20/anx/compare/0.2.0...0.2.1
+[0.2.0]: https://github.com/Ederene20/anx/compare/v0.1.0...0.2.0
+[v0.1.0]: https://github.com/Ederene20/anx/compare/v0.1.0-beta...v0.1.0
+[v0.1.0-beta]: https://github.com/Ederene20/anx/compare/0.1.0...v0.1.0-beta
