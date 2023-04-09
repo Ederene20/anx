@@ -36,6 +36,6 @@ else
     esac
     echo "Manually add the directory to your \$HOME/$shell_profile (or similar)"
     echo " export ANX_INSTALL='$anx_install' "
-    echo " export PATH='\$ANX_INSTALL/bin:\$PATH' "
+    echo " export PATH=\$ANX_INSTALL/bin:\$PATH "
     echo "Run '$exe --help' to get started"
 fi
