@@ -13,7 +13,7 @@ Downoald `anx` and install into a local bin directory.
 Installing the latest version:
 
 ```bash
-curl https://raw.githubusercontent.com/Ederene20/anx/main/installers/install.sh | sh
+curl -L https://raw.githubusercontent.com/Ederene20/anx/main/installers/install.sh | sh
 ```
 
 
